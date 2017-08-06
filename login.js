@@ -30,7 +30,7 @@ function login() {
 			logintype: 'dialogLogin',
 			logLoginType: 'pc_loginDialog',
 			mem_pass: 'on',
-			password: 'zhc1915%5Ezqsiab',
+			password: '',
 			ppui_logintime: 20023,
 			quick_user: 0,
 			safeflg: 0,
@@ -41,7 +41,7 @@ function login() {
 			tpl: 'mn',
 			tt: Date.now(),
 			u: 'https%3A%2F%2Fwww.baidu.com%2Fs%3Fie%3Dutf-8%26f%3D8%26rsv_bp%3D1%26tn%3Dbaidu%26wd%3Deval%26oq%3Dnodejs%252520request%26rsv_pq%3Dfcae7f9000018ded%26rsv_t%3Dbdb3YrqXWYT8DVi8VX0KZgrOngm3dbj9pkf9MMtSj2N4b3kIBGaeKnHrB%252Fg%26rqlang%3Dcn%26rsv_enter%3D1%26inputT%3D1110%26rsv_sug3%3D23%26rsv_sug1%3D17%26rsv_sug7%3D100%26rsv_sug2%3D0%26rsv_sug4%3D1110',
-			username: '13588042677'
+			username: ''
 		},
 		headers: {
 			'Accept': 'application/javascript, */*; q=0.8',
@@ -95,7 +95,7 @@ function logincheck() {
 		sub_source: 'leadsetpwd',
 		tpl: 'mn',
 		tt: Date.now(),
-		username: '13588042677'
+		username: ''
 	};
 	var options = {
 		uri: 'https://passport.baidu.com/v2/api/?logincheck&' + qs.stringify(params), //get方法的参数应当直接写在path中，而不是像post一样写在option.qs中
