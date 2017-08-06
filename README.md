@@ -1,2 +1,0 @@
-# bdpcs
-api of baidupcs
